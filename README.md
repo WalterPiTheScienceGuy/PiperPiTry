@@ -1,29 +1,38 @@
 # PiperPiTry
-This repo contains code samples from my dissertation work in Neuroscience at NYU, completed September 2020. 
--- It indludes a copy of my dissertation. Within "FINAL_DISSERTATION -- Walter Piper.pdf", Chapter 4 starts on page 77 and the corresponding figures (Figures 4.1-4.22) begin on page 148.
--- The code samples are either for control of lab equipment (Arduino .ino file or Python .py scripts) or for data analysis (Python .py script and Jupyter notebooks).
--- My dissertation lab website: http://www.cns.nyu.edu/ledoux/members.htm
+This repo contains code samples from my dissertation work in Neuroscience at NYU, completed September 2020. It indludes a copy of my dissertation. Within "FINAL_DISSERTATION -- Walter Piper.pdf", Chapter 4 starts on page 77 and the corresponding figures (Figures 4.1-4.22) begin on page 148.
+
+The code samples are either for control of lab equipment (Arduino .ino file or Python .py scripts) or for data analysis (Python .py script and Jupyter notebooks).
+My dissertation lab website: http://www.cns.nyu.edu/ledoux/members.htm
 
 I studied Pavlovian threat conditioning (a form of Classical Conditioning that occurs when auditory tones and mild footshocks are paired). Several generous collaborators connected me to novel biotech: deep-brain fiberoptic recordings (fiber photometry) in rodents expressing a fluorescent norepinephrine receptor. {Special thanks to Yulong Li and his lab at Peking University for sharing the fluorescent receptor technology http://www.yulonglilab.org/publications.html}
 
 This schematic illustrates the fiber photometry set-up.
+
+
 ![Fiber Photometry system](/Figure-fiber-photometry.png)
+
 
 Extracellular norepinephrine levels in the amygdala were estimated by inputting green fluorescent signal (from the GFP-conjugated norepinephrine receptor) into a moving average model with a control red fluorophore as an exogenous regressor (ARIMAX model of order 0,1,1). All analyses were done with Python. The package statsmodels was used for ARIMAX modeling. Pandas, numpy, and scipy were used for signal processing. Matplotlib was used for visualization.
 
 The plots below show the model trained on 60 seconds of data (turqouise in figure below) and then forecasted up to 30 seconds in the future (orange). The actual future signal (green) was then visualized along with the forecast (orange) (orange-shaded area is 90% confidence interval). The four subplots are consecutive time windows around a single experimental tone-footshock pairing.
 
+
 ![Norepinephrine estimation](/Figure_MovingAvg_ExogRegr_ToneShockPairing.png)
+
 
 Convolutional neural networks were used to process video data in order to track animal pose, infrared cues, and mechanical stress on the fiberoptic cord near the connection to the fiberoptic implant. This was done with the package DeepLabCut (https://github.com/DeepLabCut/DeepLabCut), which by default uses ResNet-50 with transfer learning for supervised learning of human-labeled anatomical or mechanical features.
 
 Distance (in pixels) between various points on the rodent's head were plotted on the same time-axis as the fiber photometry signals. The 6 colors in a dense time-series scatter plot across the upper section of the figure reveal movement. Some of the extreme outliers are likely in error, as they were associated with low Bayesian likelihood estimates (not shown). The timing of tone delivery (without shock) is indicated by square waves, and the red and green channels of photometry are shown near the top of these square waves, although the plot range on the y-axis is non-optimal for the photometry measures.
 
+
 ![Movement and photometry in full memory test session](/Figure4-17.PNG) 
+
 
 As an aside, DeepLabCut can also be used to gather (x,y) coordinates from each frame for camera calibration computations and corrections. The figure below shows an example of using the rectilinear geometry of the test cage with monte carlo simulations to estimate the camera calibration parameters.
 
+
 ![Camera correction test](/Figure4-3c.png)
+
 
 Based on this research, I drew 3 conclusions about the nature of norepinephrine reactivity to psychological stimulation.
 
@@ -31,7 +40,9 @@ Starting from the hypothesis with the strongest confirmatory evidence: Footshock
 
 There was also robust evidence for second hypothesis: Auditory tones, whether already conditioned or novel, tend to elicit robust norepinephrine responses in amygdala. The figure below shows the ARIMAX(0,1,1) output that displays a moderate norepinephrine increase at the start of the 20-second novel tone, a gradual rise during those 20 seconds, and finally a sharp increase during the 1-second footshock the co-terminates with the 20-second tone. The lower plot shows norepinephrine increase during a tone without a shock, then a gradual decline.
 
+
 ![ARIMAX output CSUS and CSminus](/Figure4-16.PNG) 
+
 
 Finally, there may be a difference between neutral tones and conditionined tones in the decay of norepinephrine reactions across trials. Norepinephirne reactions to conditioned tones may persist for longer than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
 
