@@ -13,7 +13,7 @@ This schematic illustrates the fiber photometry set-up.
 
 Extracellular norepinephrine levels in the amygdala were estimated by inputting green fluorescent signal (from the GFP-conjugated norepinephrine receptor) into a moving average model with a control red fluorophore as an exogenous regressor (ARIMAX model of order 0,1,1). All analyses were done with Python. The package statsmodels was used for ARIMAX modeling. Pandas, numpy, and scipy were used for signal processing. Matplotlib was used for visualization.
 
-The plots below show the model trained on 60 seconds of data (turqouise in figure below) and then forecasted up to 30 seconds in the future (orange). The actual future signal (green) was then visualized along with the forecast (orange) (orange-shaded area is 90% confidence interval). The four subplots are consecutive time windows around a single experimental tone-footshock pairing.
+The plots below show the model trained on 60 seconds of data (turqouise in figure below) and then forecasted up to 30 seconds in the future (orange). The actual future signal (green) was then visualized along with the forecast (orange) (orange-shaded area is 90% confidence interval). The four subplots are consecutive time windows around a single trial of tone-footshock pairing.
 
 
 ![Norepinephrine estimation](/Figure_MovingAvg_ExogRegr_ToneShockPairing.png)
