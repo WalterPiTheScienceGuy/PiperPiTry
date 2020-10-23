@@ -43,7 +43,7 @@ There was also robust evidence for a second hypothesis: Auditory tones, whether 
 ![ARIMAX output CSUS and CSminus](/Figure4-16.PNG) 
 
 
-Finally, there may be a difference between neutral tones and conditionined tones in the maintenance or decay of norepinephrine reactions to successive trials. Norepinephirne reactions to conditioned tones may persist for more trials than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
+Finally, there may be a difference between neutral tones and conditionined tones in the maintenance or decay of norepinephrine reactions to successive trials. Norepinephrine reactions to conditioned tones may persist for more trials than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
 
 
 
