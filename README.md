@@ -1,5 +1,5 @@
 # PiperPiTry
-This repo contains code samples from my dissertation work in Neuroscience at NYU, completed September 2020. It indludes a copy of my dissertation. Within "FINAL_DISSERTATION -- Walter Piper.pdf", Chapter 4 starts on page 77 and the corresponding figures (Figures 4.1-4.22) begin on page 148.
+This repo contains code samples from my dissertation work in Neuroscience at NYU, completed September 2020. It includes a copy of my dissertation. Within "FINAL_DISSERTATION -- Walter Piper.pdf", Chapter 4 starts on page 77 and the corresponding figures (Figures 4.1-4.22) begin on page 148.
 
 The code samples are either for control of lab equipment (Arduino .ino file or Python .py script) or for data analysis (Python .py script and Jupyter notebooks).
 
