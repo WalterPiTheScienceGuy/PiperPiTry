@@ -19,7 +19,7 @@ Convolutional neural networks were used to process video data in order to track 
 
 Distance (in pixels) between various points on the rodent's head were plotted on the same time-axis as the fiber photometry signals. The 6 colors in a dense time-series scatter plot across the upper section of the figure reveal movement. Some of the extreme outliers are likely in error, as they were associated with low Bayesian likelihood estimates (not shown). The timing of tone delivery (without shock) is indicated by square waves, and the red and green channels of photometry are shown near the top of these square waves, although the plot range on the y-axis is non-optimal for the photometry measures.
 
-![Movement and photometry in full memory test session](/Figure4-17.png)
+![Movement and photometry in full memory test session](/Figure4-17.PNG) 
 
 As an aside, DeepLabCut can also be used to gather (x,y) coordinates from each frame for camera calibration computations and corrections. The figure below shows an example of using the rectilinear geometry of the test cage with monte carlo simulations to estimate the camera calibration parameters.
 
@@ -31,7 +31,7 @@ Starting from the hypothesis with the strongest confirmatory evidence: Footshock
 
 There was also robust evidence for second hypothesis: Auditory tones, whether already conditioned or novel, tend to elicit robust norepinephrine responses in amygdala. The figure below shows the ARIMAX(0,1,1) output that displays a moderate norepinephrine increase at the start of the 20-second novel tone, a gradual rise during those 20 seconds, and finally a sharp increase during the 1-second footshock the co-terminates with the 20-second tone. The lower plot shows norepinephrine increase during a tone without a shock, then a gradual decline.
 
-![ARIMAX output CSUS and CSminus](/Figure4-16.png)
+![ARIMAX output CSUS and CSminus](/Figure4-16.PNG) 
 
 Finally, there may be a difference between neutral tones and conditionined tones in the decay of norepinephrine reactions across trials. Norepinephirne reactions to conditioned tones may persist for longer than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
 
