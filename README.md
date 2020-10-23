@@ -21,7 +21,7 @@ The plots below show the model trained on 60 seconds of data (turqouise in figur
 
 Convolutional neural networks were used to process video data in order to track animal pose, infrared cues, and mechanical stress on the fiberoptic cord near the connection to the fiberoptic implant. This was done with the package DeepLabCut (https://github.com/DeepLabCut/DeepLabCut), which by default uses ResNet-50 with transfer learning for supervised learning of human-labeled anatomical or mechanical features.  Feel free to navigate to DeepLabCut's repo for visualized examples of this deep learning tool in use on various animals.
 
-In the next figure, distance (in pixels) between various points on the rodent's head were plotted on the same time-axis as the fiber photometry signals. 6 distance measurements per frame are plotted below as a time-series scatter plot across the upper section of the figure. Some of the extreme outliers are likely in error, as the x,y coordinate estimates were associated with lower Bayesian likelihoods (not shown). The timing of tone delivery (without shock) is indicated by square waves, and the red and green channels of photometry are shown near the top of these square waves, although the plot range on the y-axis is non-optimal for the photometry measures.
+In the next figure, distance (in pixels) between various points on the rodent's head were plotted on the same time-axis as the fiber photometry signals. 6 distance measurements per frame are plotted below as a time-series scatter plot across the upper section of the figure. Some of the extreme outliers are likely in error, as the (x,y) coordinate estimates were associated with lower Bayesian likelihoods (not shown). The timing of tone delivery (without shock) is indicated by square waves, and the red and green channels of photometry are shown near the top of these square waves, although the plot range on the y-axis is non-optimal for the photometry measures.
 
 
 ![Movement and photometry in full memory test session](/Figure4-17.PNG) 
@@ -37,13 +37,13 @@ Based on this research, I drew 3 conclusions about the nature of norepinephrine 
 
 Starting from the hypothesis with the strongest confirmatory evidence: Footshocks trigger norepinephrine surges in amygdala (Shown in earlier figures and below). This was previously known based on microdialysis evidence (temporal resolution {15 minute measurements ~ 0.001 Hz}) from the McGaugh Lab in the 1990's, but the research here demonstrated the same with high temporal resolution > 12,000 Hz.
 
-There was also robust evidence for second hypothesis: Auditory tones, whether already conditioned or novel, tend to elicit robust norepinephrine responses in amygdala. The figure below shows the ARIMAX(0,1,1) output that displays a moderate norepinephrine increase at the start of the 20-second novel tone, a gradual rise during those 20 seconds, and finally a sharp increase during the 1-second footshock the co-terminates with the 20-second tone. The lower plot shows norepinephrine increase during a tone without a shock, then a gradual decline.
+There was also robust evidence for a second hypothesis: Auditory tones, whether already conditioned or novel, tend to elicit robust norepinephrine responses in amygdala. The figure below shows the ARIMAX(0,1,1) output that displays a moderate norepinephrine increase at the start of the 20-second novel tone, a gradual rise during those 20 seconds, and finally a sharp increase during the 1-second footshock that co-terminates with the 20-second tone. The lower plot shows norepinephrine increase during a tone without a shock, then a gradual decline.
 
 
 ![ARIMAX output CSUS and CSminus](/Figure4-16.PNG) 
 
 
-Finally, there may be a difference between neutral tones and conditionined tones in the decay of norepinephrine reactions across trials. Norepinephirne reactions to conditioned tones may persist for longer than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
+Finally, there may be a difference between neutral tones and conditionined tones in the maintenance or decay of norepinephrine reactions to successive trials. Norepinephirne reactions to conditioned tones may persist for more trials than neutral tones. This is consistent with theories of "conditioned arousal" or "truncated (internalized) Pavlovian responses".
 
 
 
