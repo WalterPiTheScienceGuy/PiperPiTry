@@ -1,7 +1,7 @@
 # PiperPiTry
 This repo contains code samples from my dissertation work in Neuroscience at NYU, completed September 2020. It indludes a copy of my dissertation. Within "FINAL_DISSERTATION -- Walter Piper.pdf", Chapter 4 starts on page 77 and the corresponding figures (Figures 4.1-4.22) begin on page 148.
 
-The code samples are either for control of lab equipment (Arduino .ino file or Python .py scripts) or for data analysis (Python .py script and Jupyter notebooks).
+The code samples are either for control of lab equipment (Arduino .ino file or Python .py script) or for data analysis (Python .py script and Jupyter notebooks).
 
 I studied Pavlovian threat conditioning (a form of Classical Conditioning that occurs when auditory tones and mild footshocks are paired). Several generous collaborators connected me to novel biotech: deep-brain fiberoptic recordings (fiber photometry) in rodents expressing a fluorescent norepinephrine receptor. {Special thanks to Yulong Li and his lab at Peking University for sharing the fluorescent receptor technology http://www.yulonglilab.org/publications.html}
 
