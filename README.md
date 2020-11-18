@@ -3,7 +3,7 @@ This repo contains code samples from my dissertation work in Neuroscience at NYU
 
 The code samples are either for control of lab equipment (Arduino .ino file or Python .py script) or for data analysis (Python .py script and Jupyter notebooks).
 
-I studied Pavlovian threat conditioning (a form of Classical Conditioning that occurs when auditory tones and mild footshocks are paired). Several generous collaborators connected me to novel biotech: deep-brain fiberoptic recordings (fiber photometry) in rodents expressing a fluorescent norepinephrine receptor. {Special thanks to Yulong Li and his lab at Peking University for sharing the fluorescent receptor technology http://www.yulonglilab.org/publications.html}
+I studied Pavlovian threat conditioning (a form of Classical Conditioning that occurs when auditory tones and mild footshocks are paired). Several generous collaborators connected me to novel biotech: deep-brain fiberoptic recordings (fiber photometry) in rodents expressing a fluorescent norepinephrine receptor. {Special thanks to Yulong Li and his lab at Peking University for sharing the fluorescent receptor technology http://www.yulonglilab.org/publications.html }
 
 This schematic illustrates the fiber photometry set-up.
 
