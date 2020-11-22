@@ -10,7 +10,7 @@ I studied Pavlovian threat conditioning (a form of Classical Conditioning that o
 
 This schematic illustrates the fiber photometry set-up. Two fluorescent proteins were expressed in the lab animal's brain cells: 
 * NE2h is a modified adrenergic receptor with a green fluorescent protein (GFP) domain that increases its fluorescent intensity when an agonist binds to the receptor. Norepinephrine and epinephrine are the natural endogenous agonists for this receptor. 
-* mCherry is a red fluorescent protein. This was expressed in order to provide a biologically-unreactive, neutral control channel only reactive to mechanical dynamics. 
+* mCherry is a red fluorescent protein (RFP). This was expressed in order to provide a biologically-unreactive, neutral control channel only reactive to mechanical dynamics. 
 * Our rationale: If a behavior-relevant stimulus evokes changes in the GFP channel but not the RFP control channel, that would indicate a biological signal.
 
 ![Fiber Photometry system](/Figure-fiber-photometry.png)
