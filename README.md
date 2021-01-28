@@ -52,6 +52,6 @@ Finally, there may be a difference between neutral tones and conditionined tones
 
 
 
-Thank you for taking the time to read about my past work. If you'd like to get in touch, feel free to add me on LinkedIn (https://www.linkedin.com/in/walter-piper-a320805a/) or message me on ResearchGate (https://www.researchgate.net/profile/Walter_Piper2).
+Thank you for taking the time to read about my past work. If you'd like to get in touch, feel free to add me on LinkedIn (https://www.linkedin.com/in/walter-t-piper/) or message me on ResearchGate (https://www.researchgate.net/profile/Walter_Piper2).
 
 My dissertation lab website: http://www.cns.nyu.edu/ledoux/members.htm
